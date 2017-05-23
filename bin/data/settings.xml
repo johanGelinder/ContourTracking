@@ -1,0 +1,35 @@
+<group>
+	<Kinect_parameters>
+		<Near_clipping>201.403</Near_clipping>
+		<Far_clipping>1277.42</Far_clipping>
+		<Ignore_clipping>0</Ignore_clipping>
+		<Inverse_clipping>1</Inverse_clipping>
+	</Kinect_parameters>
+	<Background_learning_parameters>
+		<Learn_subtraction>0</Learn_subtraction>
+		<Reset_subtraction>0</Reset_subtraction>
+		<Save_subtraction_texture>0</Save_subtraction_texture>
+		<Load_subtraction_texture>0</Load_subtraction_texture>
+		<Load_texture_on_start>0</Load_texture_on_start>
+	</Background_learning_parameters>
+	<Background_subtraction_parameters>
+		<Activate_subtraction>0</Activate_subtraction>
+		<Minimum_return_color>7</Minimum_return_color>
+		<Maximum_return_color>30</Maximum_return_color>
+		<Clamp_all_color_to_255>1</Clamp_all_color_to_255>
+	</Background_subtraction_parameters>
+	<Contour_finder_parameters>
+		<Enable_contour_finder>1</Enable_contour_finder>
+		<Erode>2</Erode>
+		<Dilate>1</Dilate>
+		<Minimum_area>5000</Minimum_area>
+		<Maximum_area>187500</Maximum_area>
+		<Threshold>3.90306</Threshold>
+		<Find_holes>1</Find_holes>
+	</Contour_finder_parameters>
+	<Bounding_boxes_parameters>
+		<Bounding_box_to_modify>-1</Bounding_box_to_modify>
+		<Save_bounding_boxes>0</Save_bounding_boxes>
+	</Bounding_boxes_parameters>
+<group/>
+</group>
