@@ -33,10 +33,9 @@ void Contours::threadedFunction() {
 
 			//ofThread::lock();
 
-			ofxFps::begin();
-
 			if (pixels != NULL && pixels->isAllocated())
 				back->finder.findContours(*pixels);
+
 			back->circleCenter.resize(back->finder.size());
 			back->circleRadius.resize(back->finder.size());
 			for (int i = 0; i<back->finder.size(); i++) {
@@ -45,8 +44,6 @@ void Contours::threadedFunction() {
 
 			needsToUpdate = false;
 			hasNewImage = true;
-
-			ofxFps::end();
 
 			swap(front, back);
 

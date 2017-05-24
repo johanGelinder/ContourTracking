@@ -23,7 +23,7 @@
 		<Erode>2</Erode>
 		<Dilate>1</Dilate>
 		<Minimum_area>5000</Minimum_area>
-		<Maximum_area>187500</Maximum_area>
+		<Maximum_area>50000</Maximum_area>
 		<Threshold>3.90306</Threshold>
 		<Find_holes>1</Find_holes>
 	</Contour_finder_parameters>

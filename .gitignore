@@ -1,0 +1,9 @@
+*.dll
+*.exe
+bin/kinectCV_debug.ilk
+bin/kinectCV_debug.pdb
+*.lib
+bin/kinectCV.iobj
+bin/kinectCV.exp
+bin/kinectCV_debug.exp
+bin/kinectCV.ipdb

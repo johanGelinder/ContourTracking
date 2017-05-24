@@ -3,7 +3,6 @@
 
 #include "ofMain.h"
 #include "ofxCv.h"
-#include "ofxFps.h"
 
 typedef struct {
 	ofxCv::ContourFinder finder;
@@ -11,7 +10,7 @@ typedef struct {
 	vector<float> circleRadius;
 } ContourBuffer;
 
-class Contours : public ofThread, public ofxFps {
+class Contours : public ofThread {
 public:
 
 	Contours();
